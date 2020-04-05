@@ -16,8 +16,8 @@ public class ThreadDemo extends Thread {
         ThreadDemo work1 = new ThreadDemo();
         ThreadDemo work2 = new ThreadDemo();
 
-        work1.setName("第1线程");
-        work2.setName("第2线程");
+        work1.setName("first");
+        work2.setName("second");
 
         work1.start();
         Sleap.sleap(500);
