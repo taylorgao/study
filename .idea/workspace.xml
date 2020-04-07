@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fce766fa-fd96-4813-956a-1144a1099d8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/gbs/thread/atomic/AtomicStampReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gbs/thread/atomic/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gbs/thread/lock/LockDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/study/com/gbs/thread/atomic/AtomicIntegerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/study/com/gbs/thread/atomic/AtomicIntegerDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbs/thread/atomic/AtomicIntegerDemo.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +26,20 @@
     <favorites_list name="study" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/forkjoin/mergesort/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="35" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,13 +96,15 @@
         <option value="$PROJECT_DIR$/src/com/gbs/thread/semaphore/StudySemaphore.java" />
         <option value="$PROJECT_DIR$/src/com/gbs/thread/callable/CallableDemo.java" />
         <option value="$PROJECT_DIR$/src/com/gbs/thread/atomic/AtomicReferenceDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/atomic/AtomicIntegerDemo.java" />
         <option value="$PROJECT_DIR$/src/com/gbs/thread/atomic/AtomicMarkableReferenceDemo.java" />
         <option value="$PROJECT_DIR$/src/com/gbs/thread/atomic/AtomicStampReferenceDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/thread/lock/LockDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/thread/atomic/AtomicIntegerDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/thread/atomic/Counter.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="32" />
     <option name="y" value="23" />
     <option name="width" value="1408" />
@@ -100,6 +118,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,28 +155,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gbs" type="462c0819:PsiDirectoryNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="atomic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gbs" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="callable" type="462c0819:PsiDirectoryNode" />
+              <item name="semaphore" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586096218133" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586263085814" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -183,20 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AtomicStampReferenceDemo">
-    <configuration name="AtomicIntegerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gbs.thread.atomic.AtomicIntegerDemo" />
-      <module name="study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gbs.thread.atomic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Counter">
     <configuration name="AtomicReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gbs.thread.atomic.AtomicReferenceDemo" />
       <module name="study" />
@@ -236,12 +233,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudySemaphore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gbs.thread.semaphore.StudySemaphore" />
+    <configuration name="Counter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gbs.thread.atomic.Counter" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gbs.thread.semaphore.*" />
+          <option name="PATTERN" value="com.gbs.thread.atomic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gbs.thread.lock.LockDemo" />
+      <module name="study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gbs.thread.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,11 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Counter" />
+        <item itemvalue="Application.LockDemo" />
         <item itemvalue="Application.AtomicStampReferenceDemo" />
-        <item itemvalue="Application.AtomicIntegerDemo" />
         <item itemvalue="Application.AtomicReferenceDemo" />
         <item itemvalue="Application.CallableDemo" />
-        <item itemvalue="Application.StudySemaphore" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +289,9 @@
       <workItem from="1585838406440" duration="41000" />
       <workItem from="1585883998940" duration="20918000" />
       <workItem from="1585983470655" duration="1347000" />
-      <workItem from="1586012374745" duration="8814000" />
+      <workItem from="1586012374745" duration="9743000" />
+      <workItem from="1586138360792" duration="4541000" />
+      <workItem from="1586183133971" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1585994192055</created>
@@ -306,7 +318,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54047000" />
+    <option name="totallyTimeSpent" value="60128000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -318,10 +330,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="23" width="1408" height="823" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.68703705" visible="true" weight="0.284041" />
-      <window_info id="Structure" order="1" sideWeight="0.31296295" side_tool="true" visible="true" weight="0.284041" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68292683" visible="true" weight="0.2846924" />
+      <window_info id="Structure" order="1" sideWeight="0.31707317" side_tool="true" visible="true" weight="0.2846924" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -329,7 +342,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5020325" side_tool="true" weight="0.25679544" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4978038" visible="true" weight="0.2612859" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49713877" weight="0.25951087" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.35197818" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -337,7 +350,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49853587" weight="0.32968536" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4978038" weight="0.20930232" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021962" side_tool="true" visible="true" weight="0.2612859" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5028612" side_tool="true" visible="true" weight="0.25903615" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49853587" weight="0.32968536" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -555,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/countdownlatch/CountDownLatchThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/forkjoin/taskwithpool/SumTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -582,13 +588,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/atomic/AtomicMarkableReferenceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/atomic/AtomicMarkableReferenceDemo.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicStampedReference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
@@ -600,13 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/atomic/AtomicIntegerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -641,20 +634,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/forkjoin/mergesort/MergeSort.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/ThreadDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="964">
-          <caret line="76" column="48" lean-forward="true" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
+        <state relative-caret-position="27">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/atomic/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/lock/LockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/ThreadDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/countdownlatch/CountDownLatchThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="290">
+          <caret line="32" column="15" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/forkjoin/mergesort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="35" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
