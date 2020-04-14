@@ -62,7 +62,6 @@
         <option value="$PROJECT_DIR$/src/com/gbs/thread/forkjoin/ForkjoinDemo/MultiCalculate.java" />
         <option value="$PROJECT_DIR$/src/com/gbs/thread/forkjoin/forkjoindemo/MultiCalculate.java" />
         <option value="$PROJECT_DIR$/src/com/gbs/thread/forkjoin/forkjointask/MultiCalculate.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/demo/HelloWorld.java" />
         <option value="$PROJECT_DIR$/src/com/gbs/thread/scheduledthreadpool/ScheduledThreadPoolDemo.java" />
         <option value="$PROJECT_DIR$/src/com/gbs/thread/scheduledthreadpool/TestNewScheduledThreadPool.java" />
         <option value="$PROJECT_DIR$/src/com/gbs/thread/forkjoin/SumTask.java" />
@@ -80,11 +79,23 @@
         <option value="$PROJECT_DIR$/src/com/gbs/thread/atomic/AtomicReferenceDemo.java" />
         <option value="$PROJECT_DIR$/src/com/gbs/thread/atomic/AtomicMarkableReferenceDemo.java" />
         <option value="$PROJECT_DIR$/src/com/gbs/thread/atomic/AtomicStampReferenceDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/lock/LockDemo.java" />
         <option value="$PROJECT_DIR$/src/com/gbs/thread/atomic/AtomicIntegerDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/atomic/Counter.java" />
         <option value="$PROJECT_DIR$/src/com/gbs/thread/condition/IQuee.java" />
         <option value="$PROJECT_DIR$/src/com/gbs/thread/condition/Quee.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/singletonStarve.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/SingletonStarve.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/singletonCounter.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/thread/atomic/Counter.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/Counter.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/SingletonCounter.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/SingletonLazy.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/SingletonInnerClass.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/TestSingleton.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/thread/lock/LockDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/thread/executor/ExecutorDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/thread/executor/ThreadPoolExecutorDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/demo/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/demo/Generics.java" />
       </list>
     </option>
   </component>
@@ -125,7 +136,15 @@
               <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gbs" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gbs" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="Generics.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -138,17 +157,18 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586444731216" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586873059828" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gbs.thread.safe.singleton" />
       <recent name="com.gbs.thread.forkjoin.forkjointask" />
     </key>
   </component>
@@ -164,26 +184,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Quee">
-    <configuration name="AtomicStampReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gbs.thread.atomic.AtomicStampReferenceDemo" />
-      <module name="study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gbs.thread.atomic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Generics">
     <configuration name="Counter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gbs.thread.atomic.Counter" />
+      <option name="MAIN_CLASS_NAME" value="com.gbs.thread.safe.singleton.Counter" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gbs.thread.atomic.*" />
+          <option name="PATTERN" value="com.gbs.thread.safe.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,12 +198,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gbs.thread.lock.LockDemo" />
+    <configuration name="Generics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gbs.demo.Generics" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gbs.thread.lock.*" />
+          <option name="PATTERN" value="com.gbs.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,12 +211,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Quee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gbs.thread.condition.Quee" />
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gbs.demo.HelloWorld" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gbs.thread.condition.*" />
+          <option name="PATTERN" value="com.gbs.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,12 +224,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudySemaphore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gbs.thread.semaphore.StudySemaphore" />
+    <configuration name="TestSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gbs.thread.safe.singleton.TestSingleton" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gbs.thread.semaphore.*" />
+          <option name="PATTERN" value="com.gbs.thread.safe.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadPoolExecutorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gbs.thread.executor.ThreadPoolExecutorDemo" />
+      <module name="study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gbs.thread.executor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Quee" />
-        <item itemvalue="Application.StudySemaphore" />
-        <item itemvalue="Application.Counter" />
-        <item itemvalue="Application.LockDemo" />
-        <item itemvalue="Application.AtomicStampReferenceDemo" />
+        <item itemvalue="Application.Generics" />
+        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.ThreadPoolExecutorDemo" />
+        <item itemvalue="Application.TestSingleton" />
+        <item itemvalue="Application.Counter (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +284,7 @@
       <workItem from="1586138360792" duration="4541000" />
       <workItem from="1586183133971" duration="824000" />
       <workItem from="1586353214987" duration="6367000" />
-      <workItem from="1586487663829" duration="1731000" />
+      <workItem from="1586487663829" duration="16346000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1585994192055</created>
@@ -291,7 +311,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68439000" />
+    <option name="totallyTimeSpent" value="83054000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -305,8 +325,8 @@
   <component name="ToolWindowManager">
     <frame x="32" y="23" width="1408" height="823" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6791045" visible="true" weight="0.2920937" />
-      <window_info id="Structure" order="1" sideWeight="0.32089552" side_tool="true" visible="true" weight="0.2920937" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.67896676" visible="true" weight="0.1727672" />
+      <window_info id="Structure" order="1" sideWeight="0.3210332" side_tool="true" visible="true" weight="0.1727672" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -314,7 +334,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5020325" side_tool="true" weight="0.25679544" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49642345" weight="0.25903615" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4956076" visible="true" weight="0.25854993" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.35197818" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -322,7 +342,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49853587" weight="0.32968536" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4978038" weight="0.20930232" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5035765" side_tool="true" visible="true" weight="0.26675788" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5043924" side_tool="true" visible="true" weight="0.25854993" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49853587" weight="0.32968536" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -430,23 +450,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/scheduledthreadpool/ScheduledThreadPoolDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/demo/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/scheduledthreadpool/TestNewScheduledThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8550">
@@ -603,30 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/atomic/Counter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/lock/LockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/countdownlatch/CountDownLatchThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -683,6 +662,139 @@
           <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/atomic/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/SingletonCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/TestSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/SingletonStarve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="5" selection-start-line="14" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/SingletonInnerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="237" column="11" selection-start-line="237" selection-start-column="11" selection-end-line="237" selection-end-column="11" />
+          <folding>
+            <element signature="e#6812#6813#0" expanded="true" />
+            <element signature="e#6849#6850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/lock/LockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/executor/TestNewScheduledThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/executor/ThreadPoolExecutorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/demo/Generics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3750">
+          <caret line="231" column="7" selection-start-line="231" selection-start-column="7" selection-end-line="231" selection-end-column="7" />
+          <folding>
+            <element signature="e#8508#8509#0" expanded="true" />
+            <element signature="e#8555#8556#0" expanded="true" />
           </folding>
         </state>
       </provider>

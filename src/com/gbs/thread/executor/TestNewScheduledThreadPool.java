@@ -1,4 +1,4 @@
-package com.gbs.thread.scheduledthreadpool;
+package com.gbs.thread.executor;
 
 import java.text.DateFormat;
 import java.util.Date;
