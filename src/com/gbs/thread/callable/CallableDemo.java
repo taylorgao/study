@@ -13,7 +13,8 @@ public class CallableDemo implements Callable<Integer> {
         int sum = 0;
         for (int i = 0; i < 1000; i++) {
             sum += i;
-            System.out.println("sum is " + sum);
+            //System.out.println("sum is " + sum);
+            Sleap.sleap(3);
             if(Thread.interrupted())
                 break;
         }
@@ -28,9 +29,13 @@ public class CallableDemo implements Callable<Integer> {
 
         try {
             Sleap.sleap(1);
-            futureTask.cancel(true);
-            System.out.println("I want cancel");
+            /*futureTask.cancel(true); //因为这个线程一生成就启动了，无法cancel了
+            System.out.println("I want cancel");*/
+            long l = System.currentTimeMillis();
             Integer rtn = futureTask.get();
+            long l1 = System.currentTimeMillis();
+            long lMinus = (long)((l1 - l) / 1000);
+            System.out.println("为了等待计算结果，主线程阻塞了" + lMinus + "秒");
             System.out.println(rtn);
         } catch (InterruptedException e) {
             e.printStackTrace();
