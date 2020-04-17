@@ -38,9 +38,10 @@ public class LockDemo implements Runnable{
     }
 
     public static void main(String[] args) throws Exception {
+        //CountDownLatch仅为了主线程等待自线程完成。
         CountDownLatch countDownLatch = new CountDownLatch(2);
-        Lock lock = new ReentrantLock();
 
+        Lock lock = new ReentrantLock();
         LockDemo lockDemo1 = new LockDemo(lock,countDownLatch);
         LockDemo lockDemo2 = new LockDemo(lock,countDownLatch);
 
