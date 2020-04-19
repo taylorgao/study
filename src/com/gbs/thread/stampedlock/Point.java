@@ -24,9 +24,16 @@ public class Point {
      * @return
      */
     double distanceFromOrigin() {
-        long stamp = sl.tryOptimisticRead();    // 使用乐观读锁
-        double currentX = x, currentY = y;      // 拷贝共享资源到本地方法栈中
-        if (!sl.validate(stamp)) {              // 如果有写锁被占用，可能造成数据不一致，所以要切换到普通读锁模式
+        // 使用乐观读锁（T.G. : 如果此时已经被其他写锁互斥占用，则返回0）
+        //T.G. : 看得出来，乐观读锁不需要释放
+        long stamp = sl.tryOptimisticRead();
+        // 拷贝共享资源到本地方法栈中
+        //T.G. : 拿到锁后，无论是否成功，先读取资源。
+        double currentX = x, currentY = y;
+        // 如果有写锁被占用，可能造成数据不一致，所以要切换到普通读锁模式
+        //T.G. : 读取资源后，再来校验开始拿到的锁是否已经成功（非0），或者成功拿锁后是否被其他线程拿了写锁（数据可以不一致了）
+        //T.G. : 无论是上述那种情况都，都无法通过校验
+        if (!sl.validate(stamp)) {
             stamp = sl.readLock();
             try {
                 currentX = x;
