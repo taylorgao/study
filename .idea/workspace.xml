@@ -2,9 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fce766fa-fd96-4813-956a-1144a1099d8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/gbs/jvm/BuilerModeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gbs/collection/TypeTransStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gbs/constant/SeasonEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gbs/constant/WeekEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gbs/demo/Basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gbs/demo/SwitchString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gbs/designpattern/guardclauses/TestGuardClause.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gbs/designpattern/strategy/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gbs/designpattern/strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gbs/designpattern/strategy/Multiple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gbs/designpattern/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gbs/designpattern/strategy/StrategyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gbs/designpattern/strategy/Subtract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gbs/log/LogTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gbs/random/RandomTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gbs/regex/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/SingletonVolatile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gbs/thread/threadlocal/TestWithThreadLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gbs/time/TimeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/study/com/gbs/demo/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/study/com/gbs/demo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/study/com/gbs/demo/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/study/com/gbs/jvm/BuilerModeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/study/com/gbs/jvm/BuilerModeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/study/com/gbs/thread/safe/singleton/SingletonStarve.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/study/com/gbs/thread/safe/singleton/SingletonStarve.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/study/com/gbs/thread/safe/singleton/TestSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/study/com/gbs/thread/safe/singleton/TestSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbs/demo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gbs/demo/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/SingletonStarve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/SingletonStarve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/TestSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/TestSingleton.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +61,79 @@
     <favorites_list name="study" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gbs/demo/Basic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gbs/regex/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gbs/random/RandomTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gbs/time/TimeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/gbs/log/LogTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -64,6 +155,9 @@
       <find>getrear</find>
       <find>&quot;</find>
       <find>hashc</find>
+      <find>TestWithoutThreadLocal</find>
+      <find>com.gbs.thread.threadlocal.threadlocal.</find>
+      <find>commonMsg</find>
     </findStrings>
     <replaceStrings>
       <replace>linearSeconds</replace>
@@ -75,9 +169,12 @@
       <replace>rear</replace>
       <replace>getRear</replace>
       <replace>'</replace>
+      <replace>TestWithThreadLocal</replace>
+      <replace>staticMsg</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/com/gbs/thread</dir>
+      <dir>$PROJECT_DIR$/src/com/gbs/designpattern</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -93,34 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/SingletonStarve.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/singletonCounter.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/atomic/Counter.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/Counter.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/SingletonCounter.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/SingletonLazy.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/SingletonInnerClass.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/TestSingleton.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/executor/ExecutorDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/executor/ThreadPoolExecutorDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/demo/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/demo/Generics.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/executor/TestNewScheduledThreadPool.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/callable/CallableDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/futruetask/FutureTaskStudy.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/lock/LockDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/locksupport/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/locksupport/FIFOMutex.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/stampedlock/Point.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/semaphore/StudySemaphore.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/stampedlock/Point.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/unsafe/UnsafeStudy.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/atomic/atomicintegerfieldupdate/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/atomic/atomicintegerfieldupdate/Task.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/atomic/atomicintegerfieldupdate/Account.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/phaser/PhaserTest2.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/phaser/PhaserTest4.java" />
-        <option value="$PROJECT_DIR$/src/com/gbs/thread/phaser/PhaserTest3.java" />
         <option value="$PROJECT_DIR$/src/com/gbs/thread/exchanger/ExchangerTest.java" />
         <option value="$PROJECT_DIR$/src/com/gbs/map/HashMapDemo.java" />
         <option value="$PROJECT_DIR$/src/com/gbs/collection/ArrayTest.java" />
@@ -144,10 +213,39 @@
         <option value="$PROJECT_DIR$/src/com/gbs/jvm/Test.java" />
         <option value="$PROJECT_DIR$/src/com/gbs/jvm/InternTest.java" />
         <option value="$PROJECT_DIR$/src/com/gbs/jvm/BuilerModeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/constant/WeekEnum.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/demo/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/collection/TypeTransStudy.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/demo/EnumStudy.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/SingletonStarve.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/SingletonVolatile.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/TestSingleton.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/thread/threadlocal/Test20.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/thread/threadlocal/nothreadlocal/TestWithoutThreadLocal.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/thread/threadlocal/threadlocal/TestWithThreadLocal.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/thread/threadlocal/TestWithThreadLocal.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/demo/SwitchString.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/designpattern/strategy/strategy.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/designpattern/strategy/Add.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/designpattern/strategy/Subtract.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/designpattern/strategy/Multiple.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/designpattern/strategy/Context.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/designpattern/strategy/StrategyTest.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/designpattern/guardclauses/TestGuardClause.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/designpattern/strategy/Strategy.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/constant/SeasonEnum.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/demo/Basic.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/regex/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/random/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/time/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/time/TimeTest.java" />
+        <option value="$PROJECT_DIR$/src/log/LogTest.java" />
+        <option value="$PROJECT_DIR$/src/com/gbs/log/LogTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="828" />
@@ -160,7 +258,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,46 +271,35 @@
               <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gbs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gbs" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587909446569" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588691777536" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gbs.collection" />
       <recent name="com.gbs.collection.basic.array" />
       <recent name="com.gbs.collection.basic.deque_array" />
       <recent name="com.gbs.thread.safe.singleton" />
       <recent name="com.gbs.thread.forkjoin.forkjointask" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/gbs/thread/threadlocal" />
       <recent name="$PROJECT_DIR$/src/com/gbs/collection/basic/deque_array" />
     </key>
   </component>
@@ -228,13 +315,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BuilerModeTest">
-    <configuration name="BuilerModeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gbs.jvm.BuilerModeTest" />
+  <component name="RunManager" selected="Application.LogTest">
+    <configuration name="LogTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gbs.log.LogTest" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gbs.jvm.*" />
+          <option name="PATTERN" value="com.gbs.log.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -242,12 +329,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gbs.collection.basic.generic.GenericTest" />
+    <configuration name="RandomTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gbs.random.RandomTest" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gbs.collection.basic.generic.*" />
+          <option name="PATTERN" value="com.gbs.random.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,12 +342,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gbs.collection.senior.HashMapTest" />
+    <configuration name="StrategyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gbs.designpattern.strategy.StrategyTest" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gbs.collection.senior.*" />
+          <option name="PATTERN" value="com.gbs.designpattern.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -268,12 +355,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gbs.jvm.InternTest" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gbs.regex.Test" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gbs.jvm.*" />
+          <option name="PATTERN" value="com.gbs.regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,12 +368,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gbs.collection.senior.LinkedListTest" />
+    <configuration name="TimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gbs.time.TimeTest" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gbs.collection.senior.*" />
+          <option name="PATTERN" value="com.gbs.time.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,11 +383,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BuilerModeTest" />
-        <item itemvalue="Application.InternTest" />
-        <item itemvalue="Application.GenericTest" />
-        <item itemvalue="Application.HashMapTest" />
-        <item itemvalue="Application.LinkedListTest" />
+        <item itemvalue="Application.LogTest" />
+        <item itemvalue="Application.TimeTest" />
+        <item itemvalue="Application.RandomTest" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.StrategyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -332,6 +419,9 @@
       <workItem from="1587216983128" duration="5419000" />
       <workItem from="1587268413370" duration="45430000" />
       <workItem from="1587906980112" duration="1489000" />
+      <workItem from="1588382869690" duration="17000" />
+      <workItem from="1588388276182" duration="336000" />
+      <workItem from="1588555960381" duration="29316000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1585994192055</created>
@@ -358,7 +448,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164017000" />
+    <option name="totallyTimeSpent" value="193686000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -370,9 +460,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="828" extended-state="0" />
+    <frame x="-1" y="23" width="1440" height="828" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.15867159" visible="true" weight="0.25035766" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.15867159" visible="true" weight="0.26108727" />
       <window_info id="Structure" order="1" sideWeight="0.84132844" side_tool="true" weight="0.34846267" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -380,17 +470,17 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5020325" side_tool="true" weight="0.25679544" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.65592974" weight="0.32968536" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.477306" weight="0.29619566" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.65592974" weight="0.32880434" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.477306" weight="0.29211956" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48535872" weight="0.3515732" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4978038" weight="0.32968536" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49633968" weight="0.32968536" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4978038" weight="0.32880434" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49633968" weight="0.32880434" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49633968" weight="0.20930232" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49633968" weight="0.20923913" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.522694" side_tool="true" weight="0.29685363" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4956076" weight="0.32968536" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4956076" weight="0.32880434" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -501,226 +591,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/forkjoin/nopool/MultiCalculate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/util/concurrent/ForkJoinTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="1513" lean-forward="true" selection-start-line="1513" selection-end-line="1513" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/util/concurrent/RecursiveTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="67" column="53" lean-forward="true" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/unsafe/UnsafeStudy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/atomic/AtomicReferenceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/atomic/AtomicStampReferenceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/phaser/PhaserTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/atomic/atomicintegerfieldupdate/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/atomic/atomicintegerfieldupdate/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/cyclicbarrier/CyclicBarrierThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="48" column="49" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicIntegerFieldUpdater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="84" column="51" selection-start-line="84" selection-start-column="51" selection-end-line="84" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/atomic/atomicintegerfieldupdate/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="101" selection-start-line="9" selection-start-column="101" selection-end-line="9" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/atomic/Counter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/phaser/PhaserTest3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#271#605#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/util/concurrent/Phaser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="458" column="45" lean-forward="true" selection-start-line="458" selection-start-column="45" selection-end-line="458" selection-end-column="45" />
-          <folding>
-            <element signature="e#23276#23277#0" expanded="true" />
-            <element signature="e#23312#23313#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/phaser/PhaserTest4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#339#672#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/plugin.jar!/sun/plugin2/message/Message.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/map/HashMapDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/exchanger/ExchangerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/collection/basic/linkedlist/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/collection/basic/linkedlist/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/collection/basic/DequeTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/collection/basic/linkedlist/LinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="34" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/collection/basic/deque_linkedlist/MyCircularDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1065">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/collection/basic/deque_array/MyCircularDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/collection/basic/array/ArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/collection/basic/deque_array/MyCircularDeque_office.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/collection/senior.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/collection/basic/mapTest.java" />
     <entry file="file://$PROJECT_DIR$/src/com/gbs/collection/basic/map/MapTest.java" />
     <entry file="file://$PROJECT_DIR$/src/com/gbs/collection/senior/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -849,13 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/jvm/InternTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gbs/collection/basic/generic/GenericTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -890,11 +753,293 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gbs/jvm/BuilerModeTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/jvm/InternTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/demo/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="617" column="17" selection-start-line="617" selection-start-column="17" selection-end-line="617" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/collection/TypeTransStudy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/SingletonStarve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/SingletonVolatile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding>
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/TestSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/SingletonInnerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/threadlocal/nothreadlocal/TestWithoutThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/executor/ThreadPoolExecutorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-643">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/threadlocal/TestWithThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/demo/SwitchString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="e#94#95#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/designpattern/strategy/Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/designpattern/strategy/Subtract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/designpattern/strategy/Multiple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/designpattern/strategy/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/designpattern/strategy/StrategyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/designpattern/guardclauses/TestGuardClause.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/designpattern/strategy/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/constant/SeasonEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/constant/WeekEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/demo/Basic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/regex/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/random/RandomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/time/Instant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="342" column="26" selection-start-line="342" selection-start-column="26" selection-end-line="342" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/time/format/DateTimeFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="534" column="36" selection-start-line="534" selection-start-column="36" selection-end-line="534" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/time/TimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/study/log/LogTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/log/LogTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

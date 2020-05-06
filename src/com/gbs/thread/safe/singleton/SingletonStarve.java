@@ -8,7 +8,7 @@ public class SingletonStarve {
     private SingletonStarve() {
     }
 
-    public static SingletonStarve getSingletonStarve() {
+    public static SingletonStarve getInstance() {
         return singletonStarve;
     }
 
