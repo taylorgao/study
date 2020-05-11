@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fce766fa-fd96-4813-956a-1144a1099d8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/gbs/collection/TypeTransStudy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gbs/constant/SeasonEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gbs/constant/WeekEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gbs/demo/Basic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gbs/demo/SwitchString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gbs/designpattern/guardclauses/TestGuardClause.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gbs/designpattern/strategy/Add.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gbs/designpattern/strategy/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gbs/designpattern/strategy/Multiple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gbs/designpattern/strategy/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gbs/designpattern/strategy/StrategyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gbs/designpattern/strategy/Subtract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gbs/log/LogTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gbs/random/RandomTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gbs/regex/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/SingletonVolatile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gbs/thread/threadlocal/TestWithThreadLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gbs/time/TimeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/study/com/gbs/demo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/study/com/gbs/demo/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/study/com/gbs/jvm/BuilerModeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/study/com/gbs/jvm/BuilerModeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/study/com/gbs/thread/safe/singleton/SingletonStarve.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/study/com/gbs/thread/safe/singleton/SingletonStarve.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/study/com/gbs/thread/safe/singleton/TestSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/study/com/gbs/thread/safe/singleton/TestSingleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gbs/demo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gbs/demo/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/SingletonStarve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/SingletonStarve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/TestSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gbs/thread/safe/singleton/TestSingleton.java" afterDir="false" />
-    </list>
+    <list default="true" id="fce766fa-fd96-4813-956a-1144a1099d8f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gbs/demo/Basic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="836">
               <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -77,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gbs/regex/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="152">
               <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -98,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gbs/time/TimeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="380">
               <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -110,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/gbs/log/LogTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            <state relative-caret-position="323">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/.gitattributes">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -244,11 +217,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1440" />
-    <option name="height" value="828" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -258,7 +229,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,13 +239,38 @@
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gbs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -422,6 +417,7 @@
       <workItem from="1588382869690" duration="17000" />
       <workItem from="1588388276182" duration="336000" />
       <workItem from="1588555960381" duration="29316000" />
+      <workItem from="1588988706022" duration="1519000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1585994192055</created>
@@ -448,7 +444,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193686000" />
+    <option name="totallyTimeSpent" value="195205000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -460,9 +456,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1440" height="828" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="828" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.15867159" visible="true" weight="0.26108727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.15867159" visible="true" weight="0.26466382" />
       <window_info id="Structure" order="1" sideWeight="0.84132844" side_tool="true" weight="0.34846267" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -818,19 +814,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/threadlocal/nothreadlocal/TestWithoutThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding>
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/threadlocal/nothreadlocal/TestWithoutThreadLocal.java" />
     <entry file="file://$PROJECT_DIR$/src/com/gbs/thread/executor/ThreadPoolExecutorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-643">
@@ -967,33 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/demo/Basic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/regex/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gbs/random/RandomTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/time/Instant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -1008,9 +965,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/study/log/LogTest.class" />
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/demo/Basic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/regex/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gbs/random/RandomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gbs/time/TimeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
+        <state relative-caret-position="380">
           <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1018,26 +1003,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/study/log/LogTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#476#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gbs/log/LogTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
