@@ -1,4 +1,4 @@
-package com.gbs.designpattern.guardclauses;
+package guardclauses;
 //卫语句
 //即代码逻辑先考虑失败、异常、中断、退出等直接返回的情况，以方法多个出口的方式，解决代码中判断
 //分支嵌套的问题，这是逆向思维的体现。

@@ -12,5 +12,5 @@ public interface Strategy {
      * @param y 参数2
      * @return 运算结果
      */
-    int operation(int x,int y);
+    int Calulate(int x,int y);
 }

@@ -41,7 +41,7 @@ public class MyCircularDeque {
         rear = 0;//此时为空；
     }
 
-    /** Adds an item at the front of Deque. Return true if the operation is successful. */
+    /** Adds an item at the front of Deque. Return true if the Calulate is successful. */
     public boolean insertFront(int value) {
         //按照队列规则，队列满时，rear指向最后一个空节点，不能继续插入。
         if(isFull())
@@ -51,7 +51,7 @@ public class MyCircularDeque {
         return true;
     }
 
-    /** Adds an item at the rear of Deque. Return true if the operation is successful. */
+    /** Adds an item at the rear of Deque. Return true if the Calulate is successful. */
     public boolean insertRear(int value) {
         if(isFull())
             return false;
@@ -60,7 +60,7 @@ public class MyCircularDeque {
         return true;
     }
 
-    /** Deletes an item from the front of Deque. Return true if the operation is successful. */
+    /** Deletes an item from the front of Deque. Return true if the Calulate is successful. */
     public boolean deleteFront() {
         if (isEmpty())
             return false;
@@ -68,7 +68,7 @@ public class MyCircularDeque {
         return true;
     }
 
-    /** Deletes an item from the rear of Deque. Return true if the operation is successful. */
+    /** Deletes an item from the rear of Deque. Return true if the Calulate is successful. */
     public boolean deleteRear() {
         if (isEmpty())
             return false;

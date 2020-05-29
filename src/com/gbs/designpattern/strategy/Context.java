@@ -1,14 +1,22 @@
 package com.gbs.designpattern.strategy;
 
+/**
+ * 应用场景举例：顾客结算时可以使用不同种类的优惠券（多选一）
+ */
 public class Context {
     Strategy strategy;
 
-    public Context(Strategy strategy) {
-        this.strategy = strategy;
+    public Context() {
+
     }
 
-    public int executeStrategy(int x,int y)
+    public void SetStrategy(Strategy stategy)
     {
-        return strategy.operation(x,y);
+        this.strategy = stategy;
+    }
+
+    public int Calculate(int x,int y)
+    {
+        return strategy.Calulate(x,y);
     }
 }

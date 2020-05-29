@@ -1,4 +1,4 @@
-package com.gbs.thread.safe.singleton;
+package com.gbs.designpattern.singleton;
 
 public class SingletonStarve {
     private static SingletonStarve singletonStarve = new SingletonStarve();
